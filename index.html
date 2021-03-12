@@ -1,41 +1,139 @@
-<!DOCTYPE html>
-
+<!DOCTYPE html> <!--Help-->
 <html>
-<header>
-    <link rel="stylesheet" href="index.css">
-</header>
-<title>
-    Twidense
-</title>
+    <head>
 
-<body>
-
-    <header>
-        <div class="header-inner">
-            <div>
-                TWIDENSE
-            </div>
-
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <title>Twidense</title>
+    </head>
+    <body>
+        <div class="header-inner" >
+            TWIDENSE
         </div>
-
-    </header>
-    <div class="main-content">
-        <aside>
-            <nav>
-                <ul>
-                    <li>Tokyo</li>
-                    <li>Osaka</li>
-                    <li>X</li>
-                    <li>Y</li>
-                </ul>
-            </nav>
-        </aside>
-        <main>
-            main
-        </main>
-    </div>
-
-
-</body>
-
+        <div class="main-content">
+            <ul>
+                <li>
+                    <nav>
+                        <a href="#">Tokyo<i class="fa fa-bars menu" aria-hidden="true"></i></a>
+                        <div class="toggle">
+                            <ul class="minor">
+                                <li><a href="#">Shibuya</a></li>
+                                <li><a href="#">Shinjuku</a></li>
+                                <li><a href="#">Ebisu</a></li>
+                                <li><a href="#">Shinagawa</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+                    <script type="text/javascript">
+                        $(document).ready(function(){
+                            $('.menu').click(function(){
+                                $('ul').toggleClass('active');
+                            })
+                        })
+                    </script>
+                </li></br>
+                <li>
+                    <nav>
+                        <a href="#">Osaka<i class="fa fa-bars menu" aria-hidden="true"></i></a>
+                        <div class="toggle">
+                            <ul class="minor">
+                                <li><a href="#">tokoyaki</a></li>
+                                <li><a href="#">Sushi</a></li>
+                                <li><a href="#">nanndeyanen</a></li>
+                                <li><a href="#">bentou</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+                    <script type="text/javascript">
+                        $(document).ready(function(){
+                            $('.menu').click(function(){
+                                $('ul').toggleClass('active');
+                            })
+                        })
+                    </script>
+                </li></br>
+                <li>
+                    <nav>
+                        <a href="#">Nagoya<i class="fa fa-bars menu" aria-hidden="true"></i></a>
+                        <div class="toggle">
+                            <ul class="minor">
+                                <li><a href="#">Meisho</a></li>
+                                <li><a href="#">nacchan</a></li>
+                                <li><a href="#">kurumaebi</a></li>
+                                <li><a href="#">oishii</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+                    <script type="text/javascript">
+                        $(document).ready(function(){
+                            $('.menu').click(function(){
+                                $('ul').toggleClass('active');
+                            })
+                        })
+                    </script>
+                </li></br>
+                <li>
+                    <nav>
+                        <a href="#">Hokkaido<i class="fa fa-bars menu" aria-hidden="true"></i></a>
+                        <div class="toggle">
+                            <ul class="minor">
+                                <li><a href="#">skii</a></li>
+                                <li><a href="#">Samuiiii</a></li>
+                                <li><a href="#">Russia</a></li>
+                                <li><a href="#">Mikhail</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+                    <script type="text/javascript">
+                        $(document).ready(function(){
+                            $('.menu').click(function(){
+                                $('ul').toggleClass('active');
+                            })
+                        })
+                    </script>
+                </li></br>
+                <li>
+                    <nav>
+                        <a href="#">America<i class="fa fa-bars menu" aria-hidden="true"></i></a>
+                        <div class="toggle">
+                            <ul class="minor">
+                                <li><a href="#">Trump</a></li>
+                                <li><a href="#">Biden</a></li>
+                                <li><a href="#">Losser</a></li>
+                                <li><a href="#">Losssers</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+                    <script type="text/javascript">
+                        $(document).ready(function(){
+                            $('.menu').click(function(){
+                                $('ul').toggleClass('active');
+                            })
+                        })
+                    </script>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <main>
+                main
+            </main>
+        </div> 
+    </br>
+        <div class="time">
+            Time based Graph
+        </div>
+        <div class="ranking">
+            Graph
+        </div>
+    </body>
 </html>
